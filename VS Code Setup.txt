@@ -1,0 +1,29 @@
+🔰 Latest (GCC)Mingw Download (64/32) then file extract and mingw64 name folder copythen peste c: drive.
+🔰 You will need these 3 files only:
+
+graphics.h → header file
+
+winbgim.h → header file
+
+libbgi.a → library file
+
+🔰 You can ignore all other files in the ZIP.
+
+📁 Copy location
+
+🔰 File	Where to place it
+graphics.h	C:\mingw64\x86_64-w64-mingw32\include
+winbgim.h	C:\mingw64\x86_64-w64-mingw32\include
+libbgi.a	C:\mingw64\x86_64-w64-mingw32\lib 
+
+graphics.h	C:\mingw64\include
+winbgim.h	C:\mingw64\include
+libbgi.a	C:\mingw64\lib 
+
+🔰 VS Code Open
+Extension Install = Code runner,C/C++
+Then) setting= search run in terminal then code-runner on ✅
+THen) setting= search json Edit in settings.json then  
+("cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32 && $dir$fileNameWithoutExt",)
+copy to peste then save.
+Then ur Code run(Ctrl+Alt+n)
